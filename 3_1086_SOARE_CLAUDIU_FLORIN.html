@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="3_1086_SOARE_CLAUDIU_FLORIN.js"></script>
+    <link rel="stylesheet" href="3_1086_SOARE_CLAUDIU_FLORIN.css">
+
+</head>
+<body>
+    <p>Afișare grafică evoluție pentru un indicator (PIB/SV/Pop) și o țară selectată de către utilizator</p>
+    <p>Indicator:<select id="indicatori"></select> </p>
+
+    <p>Tara:<select id="tari"></select></p>
+    <div class="svgValori">
+        <text id="valori">An: Valoare:  </text>
+        <svg width="300" height="200"></svg>
+    </div>
+    <p id="pTabel">Afișare sub forma de tabel pentru un an selectat</p>
+    <p>An:<select id="ani"></select></p>
+    <table>
+        <caption>
+            Date disponibile
+        </caption>
+        <thead>
+            <tr>
+                <th>Tara</th>
+                <th>SV</th>
+                <th>POP</th>
+                <th>PIB</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+        <tfoot>
+            <tr id="tdTfoor">
+                
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+﻿body {
+}
+svg {
+    border-width: 5px;
+    border-style: solid;
+    border-color: lightblue ; 
+}
+#valori{
+    float:left ; 
+}
+polyline {
+    stroke: orangered;
+    stroke-width: 5px;
+}
+.svgValori{
+    float:left; 
+    margin-right:100% ;  
+}
+table {
+    border: 1px solid Gray;
+    border-collapse: collapse;
+    text-align: left;
+    width: 60%;
+    float: left;
+}
+td, th {
+    padding: 8px 12px;
+    border-bottom: 1px solid Gray;
+}
+
+th {
+    background-color: #EEEEEE;
+}
+
+
+caption {
+    padding: 8px 12px;
+    border: 1px solid Gray;
+    border-bottom: none;
+    background-color: #E0E0E0;
+    font-weight: bold;
+}
+tfoot {
+    background-color: #EEEEEE;
+    font-weight: bold;
+}
+
